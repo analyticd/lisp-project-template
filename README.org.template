@@ -1,0 +1,17 @@
+* lisp-project-template
+** Description
+Description here
+** Author
+Author name here
+** License
+License and copyright declaration here
+** Install
+=ln -s /path/to/lisp-project-template ~/quicklisp/local-projects/=
+** Usage
+```(ql:quickload :lisp-project-template) ```
+
+```(ql:quickload :lisp-project-template-test)```
+
+In repl, switch to package lisp-project-template-test.
+
+Execute: ```(run-package-tests)```
